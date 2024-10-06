@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.row{
+    width: 100%;
+}
+.row::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+[class*="col-"]{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    
+}
+
+.nav-bar{
+    background: url(img/flat-lay-burger-fries-plate-with-copyspace.jpg);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    color: white;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.nav-icon i{
+    font-size: 30px;
+}
+.nav-menu{
+    background-color: rgba(0, 0, 0, 0.911);
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    
+}
+.nav-menu a{
+    color: white;
+    padding: 15px;
+    border-top: 1px solid rgb(88, 88, 88);
+}
+.nav-head{
+    padding-top: 120px;
+    
+    text-align: center;
+}
+.nav-head h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: yellow;
+}
+.nav-head button{
+    padding: 8px 10px;
+    background-color: yellow;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.icon-1{
+    margin-top: 20px;
+}
+.icon-1 i{
+    font-size: 30px;
+    padding: 0 5px;
+}
+.laptop-site{
+    display: none;
+}
+
+
+.card-item-1{
+    display: flex;
+    background-color: rgba(39, 37, 37, 0.932);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.card-item-head{
+    
+    padding-left: 30px;
+}
+.card-item-head button{
+    padding: 5px 10px;
+    background-color: yellow;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.card-item-head h1{
+    font-size: 50px;
+}
+
+.card-item-img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    outline: 4px solid red;
+    margin-top: 5px;
+}
+
+.card-item{
+    margin-top: 20px;
+}
+
+
+
+
+.cardm-item{
+    background-color: rgb(28, 15, 46);
+    color: white;
+    margin: 10px 20px;
+    box-shadow: 4px 4px 12px rgb(170, 170, 170);
+    border-radius: 20px;
+    
+}
+.cardm-img-1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 0px 40px;
+}
+.cardm-head-1{
+    padding: 20px;
+}
+.cardm-dollar i{
+    background-color: red;
+    color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.cardm-dollar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.card-section-head{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.card-menu a{
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.card-section-head h2{
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+
+
+
+
+
+.about-img img{
+    width: 100%;
+    height: auto;
+}
+#about-us{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.about-head{
+    padding: 20px;
+}
+.about-head h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.about-head button{
+    background-color: yellow;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.about-header{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+#contact{
+    box-shadow: 8px 8px 20px rgb(143, 143, 143);
+    margin: 20px;
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.input-section input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(219, 219, 219);
+    margin: 7px 0;
+}
+.input-section button{
+    width: 30%;
+    height: 40px;
+    background-color: yellow;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.contact-about-us{
+    padding: 15px;
+}
+.contact-about-us h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* mobile-system start here */
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+
+    /* mobile-system ends here */

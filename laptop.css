@@ -1,0 +1,147 @@
+
+/* laptop-site start here */
+
+@media (min-width: 990px) {
+
+    .nav-bar{
+        background: url(img/flat-lay-burger-fries-plate-with-copyspace.jpg);
+        width: 100%;
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 10px;
+        color: white;
+        
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    .nav-icon i{
+        font-size: 30px;
+    }
+    .nav-menu{
+        background-color: rgba(0, 0, 0, 0.911);
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        
+    }
+    .nav-menu a{
+        color: white;
+        padding: 15px;
+        border-top: 1px solid rgb(88, 88, 88);
+    }
+    .nav-head{
+        padding-top: 150px;
+        padding-left: 30px;
+        text-align: start;
+        
+    }
+    .nav-head h1{
+        font-size: 50px;
+        padding-bottom: 10px;
+        color: yellow;
+    }
+    .nav-head button{
+        padding: 8px 10px;
+        background-color: yellow;
+        border: none;
+        border-radius: 3px;
+        margin-top: 20px;
+    }
+    .icon-1{
+        margin-top: 20px;
+    }
+    .icon-1 i{
+        font-size: 30px;
+        padding: 0 5px;
+    }
+
+    .mobile-section{
+        display: none;
+    }
+    .laptop-site{
+        display: block;
+    }
+    .nav-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .nav-menu-1{
+        padding-top: 10px;
+    }
+    .nav-menu-1 a{
+        color: white;
+        padding: 15px 20px;
+        transition: 0.5s;
+    }
+    .nav-menu-1 a:hover{
+        color: yellow;
+        
+    }
+    .btn-1 button{
+        background-color: yellow;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+    .card-item{
+        margin: 20px 100px;
+    }
+
+
+
+
+
+
+
+
+    .cardm-item{
+        background-color: rgb(28, 15, 46);
+        color: white;
+        margin: 0px;
+        box-shadow: 4px 4px 12px rgb(170, 170, 170);
+        
+    }
+    .cardm-1{
+        margin: 20px 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .about-head{
+        padding-top: 70px;
+    }
+
+
+
+
+    .col-lg-1 {width: 8.33%;}
+    .col-lg-2 {width: 16.66%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 33.33%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.66%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}
+}
